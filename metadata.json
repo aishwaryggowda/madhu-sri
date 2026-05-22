@@ -1,0 +1,6 @@
+{
+  "name": "Madhu-Siri: Bee-Farmer Harmony",
+  "description": "A communication and coordination tool between beekeepers and crop farmers to protect bee colonies from pesticide sprays. Features real-time spray alerts, an interactive hive map, hive health charts, and a GenAI safe-pesticide advisor.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,118 @@
+{
+  "hives": [
+    {
+      "id": "hive-1",
+      "name": "Siri Gold Colony",
+      "ownerName": "Madhu Gowda",
+      "latitude": 12.4530,
+      "longitude": 76.7840,
+      "honeyProductionKg": 42.5,
+      "healthStatus": "Excellent",
+      "coverStatus": "Open",
+      "lastInspected": "2026-05-20"
+    },
+    {
+      "id": "hive-2",
+      "name": "Arka Blossom Hive",
+      "ownerName": "Madhu Gowda",
+      "latitude": 12.4490,
+      "longitude": 76.7810,
+      "honeyProductionKg": 28.0,
+      "healthStatus": "Good",
+      "coverStatus": "Open",
+      "lastInspected": "2026-05-21"
+    },
+    {
+      "id": "hive-3",
+      "name": "Cauvery Wild Swarm",
+      "ownerName": "Ramesh Hegde",
+      "latitude": 12.4570,
+      "longitude": 76.7910,
+      "honeyProductionKg": 15.5,
+      "healthStatus": "Fair",
+      "coverStatus": "Open",
+      "lastInspected": "2026-05-18"
+    },
+    {
+      "id": "hive-4",
+      "name": "Nandi Valley Hive",
+      "ownerName": "Suresh Gowda",
+      "latitude": 12.4410,
+      "longitude": 76.7720,
+      "honeyProductionKg": 51.2,
+      "healthStatus": "Excellent",
+      "coverStatus": "Open",
+      "lastInspected": "2026-05-22"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-1",
+      "chemicalName": "Chlorpyrifos (Restricted Organophosphate)",
+      "farmerName": "Kari Gowda",
+      "latitude": 12.4510,
+      "longitude": 76.7860,
+      "radiusKm": 2.0,
+      "timestamp": "2026-05-21T08:00:00Z",
+      "durationMinutes": 240,
+      "active": false
+    },
+    {
+      "id": "alert-2",
+      "chemicalName": "Neem Oil Extract (Organic)",
+      "farmerName": "Basavaraju M",
+      "latitude": 12.4420,
+      "longitude": 76.7750,
+      "radiusKm": 1.5,
+      "timestamp": "2026-05-22T06:30:00Z",
+      "durationMinutes": 180,
+      "active": false
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-1",
+      "hiveId": "hive-1",
+      "date": "2026-05-10",
+      "weightKg": 24.2,
+      "honeyHarvestedKg": 5.0,
+      "queenSeen": true,
+      "activityLevel": "High",
+      "healthStatus": "Excellent",
+      "notes": "Healthy active foragers, strong pollen collection. No pesticide impacts."
+    },
+    {
+      "id": "log-2",
+      "hiveId": "hive-1",
+      "date": "2026-05-20",
+      "weightKg": 28.5,
+      "honeyHarvestedKg": 8.5,
+      "queenSeen": true,
+      "activityLevel": "High",
+      "healthStatus": "Excellent",
+      "notes": "Excellent wax building, capped honey super filled. Golden hue."
+    },
+    {
+      "id": "log-3",
+      "hiveId": "hive-2",
+      "date": "2026-05-12",
+      "weightKg": 18.0,
+      "honeyHarvestedKg": 0.0,
+      "queenSeen": false,
+      "activityLevel": "Medium",
+      "healthStatus": "Good",
+      "notes": "Foraging is normal, larvae seen in cells but queen was too elusive to photograph."
+    },
+    {
+      "id": "log-4",
+      "hiveId": "hive-2",
+      "date": "2026-05-21",
+      "weightKg": 21.3,
+      "honeyHarvestedKg": 4.0,
+      "queenSeen": true,
+      "activityLevel": "High",
+      "healthStatus": "Good",
+      "notes": "Queen spotted with bright markings! Active food chambers. Spray alert warning worked last week."
+    }
+  ]
+}
